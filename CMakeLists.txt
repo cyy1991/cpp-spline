@@ -47,7 +47,7 @@ target_link_libraries(catmullRom_node
     ${catkin_LIBRARIES}
     )
 
-add_executable(debug_spline_node test/src/main.cpp)
+add_executable(debug_spline_node test/cpp/main.cpp)
 add_dependencies(debug_spline_node ${${PROJECT_NAME}_EXPORTED_TARGETS}  ${catkin_EXPORTED_TARGETS})
 target_link_libraries(debug_spline_node
     ${catkin_LIBRARIES}
